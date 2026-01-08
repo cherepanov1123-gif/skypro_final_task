@@ -12,21 +12,26 @@
    <body>
       <!--Card-->
       <div class="card">
+         <p align="center">
+            <a href="../index.html">На главную</a>
+         </p>
          <p class="subtitle">Git</p>
-          <ul>
-            <li>ls - расшифровывается как "List files in the directory", что переводится как "перечислить все файлы в папке" или "вывести на экран список файлов в папке".</li>
-            <li>cd - расшифровывается как "Change directory", что переводится как "сменить папку" или "перейти в другую папку".</li>
-            <li>pwd - расшифровывается как "Present working directory", что переводится как "текущая рабочая директория". То есть команда pwd показывает, в какой сейчас папке мы находимся. </li>
-            <li>mkdir - расшифровывается как "Make directory", что переводится как "создать папку".</li>
-            <li>mv - расфшифровывается как"Move", что переводится как "переместить", "передвинуть". С помощью нее можно переместить, переименовать или удалить файл/</li>
+         <ul>
+            <li><strong>git init</strong> – создает новый локальный репозиторий Git</li>
+            <li><strong>git add .</strong> – добавляет все измененные файлы в индекс (staging area)</li>
+            <li><strong>git commit -m "сообщение"</strong> – фиксирует изменения с комментарием</li>
+            <li><strong>git push origin main</strong> – отправляет коммиты в удаленный репозиторий</li>
+            <li><strong>git pull origin main</strong> – забирает изменения из удаленного репозитория</li>
+            <li><strong>git clone URL</strong> – клонирует удаленный репозиторий на локальный компьютер</li>
+            <li><strong>git status</strong> – показывает состояние рабочих файлов и индекса</li>
+            <li><strong>git branch</strong> – показывает список веток, создает или удаляет ветки</li>
+            <li><strong>git checkout</strong> – переключается между ветками или восстанавливает файлы</li>
+            <li><strong>git merge</strong> – объединяет изменения из разных веток</li>
          </ul>
       </div>
       <!--footer-->
       <footer class="animated fadeIn">
-         <p class="location" align="center">
-            <a href="mac.html">Вернуся на главную</a>
-         </p>
-         &copy; 202 4. SkyPro
+         &copy; 2024. SkyPro
       </footer>
    </body>
 </html>
