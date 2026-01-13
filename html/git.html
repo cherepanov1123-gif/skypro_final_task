@@ -12,9 +12,23 @@
    <body>
       <!--Card-->
       <div class="card">
-         <p align="center">
-            <a href="../index.html">На главную</a>
-         </p>
+         <!-- Явная кнопка навигации (ЗАМЕНИТЬ ЭТОТ БЛОК) -->
+         <div style="text-align: center; margin-bottom: 25px;">
+            <a href="../index.html" 
+               style="display: inline-block; 
+                      padding: 12px 24px; 
+                      background-color: #007bff; 
+                      color: white; 
+                      text-decoration: none; 
+                      border-radius: 6px; 
+                      font-weight: bold;
+                      font-size: 16px;
+                      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                      transition: background-color 0.3s;">
+               ← На главную страницу
+            </a>
+         </div>
+         
          <p class="subtitle">Git</p>
          <ul>
             <li><strong>git init</strong> – создает новый локальный репозиторий Git</li>
@@ -24,7 +38,7 @@
             <li><strong>git pull origin main</strong> – забирает изменения из удаленного репозитория</li>
             <li><strong>git clone URL</strong> – клонирует удаленный репозиторий на локальный компьютер</li>
             <li><strong>git status</strong> – показывает состояние рабочих файлов и индекса</li>
-            <li><strong>git branch</strong> – показывает список веток, создает или удаляет ветки</li>
+            <li><strong>git branch</strong> – показывает список веток; создание ветки: <code>git branch &lt;name&gt;</code>; удаление: <code>git branch -d &lt;name&gt;</code></li>
             <li><strong>git checkout</strong> – переключается между ветками или восстанавливает файлы</li>
             <li><strong>git merge</strong> – объединяет изменения из разных веток</li>
          </ul>
